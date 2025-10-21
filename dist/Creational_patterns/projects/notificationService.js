@@ -50,7 +50,7 @@ class smsNotification extends OurNotification {
 class pushNotification extends OurNotification {
     constructor() {
         super(...arguments);
-        this.type = NotificationType.sms;
+        this.type = NotificationType.push;
         this.userId = '3';
         this.timestamp = new Date();
     }
